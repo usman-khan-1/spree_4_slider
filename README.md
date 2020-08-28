@@ -9,7 +9,7 @@ Add a slider to the homepage of your Spree site, and manage the slideshow from w
   #### Spree >= 4
 
   ```ruby
-  gem 'spree_slider', github: 'usman-khan-1/spree_slider'
+  gem 'spree_slider', github: 'usman-khan-1/spree_4_slider'
   ```
 
   #### Spree >= 3.1
