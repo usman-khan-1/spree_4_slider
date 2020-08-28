@@ -18,15 +18,15 @@ pt-BR:
 
   spree_slider:
     config_name: "Spree Slider"
-    config_description: "Configurações Spree Slider"
+    config_description: "Manage Spree Slider contents"
     title: "Slides"
-    new_slide: "Novo Slide"
-    editing_slide: "Editando Slide"
-    back_to_slides: "Voltar para Slides"
-    placeholder_name: "Deixe em branco para usar o nome do produto"
-    placeholder_link_url: "Deixe em branco para usar a url do produto"
-    image_tip: "Padrão é a primeira imagem do produto"
-
+    new_slide: "New Slide"
+    editing_slide: "Editing Slide"
+    back_to_slides: "Back to Slides"
+    placeholder_name: "Slider name"
+    placeholder_link_url: "Banner Link(URL)"
+    image_tip: "Image MAX size 1440x600"
+    
   spree_slider_locations:
     config_name: "Locais do Spree Slider"
     config_description: "Configurações de Locais do Spree Slider"

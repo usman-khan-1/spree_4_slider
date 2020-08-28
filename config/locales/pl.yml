@@ -21,10 +21,11 @@ pl:
 
   spree_slider:
     config_name: "Spree Slider"
-    config_description: "Zarządzaj zawartości Spree Slidera"
-    title: "Slajdy"
-    new_slide: "Nowy slajd"
-    editing_slide: "Edycja slajdu"
-    placeholder_name: "Pozostaw puste aby użyć nazwy produktu"
-    placeholder_link_url: "Pozostaw puste aby użyć odnośnika do produktu"
-    image_tip: "Domyślnie pierwsze zdjęcie produktu"
+    config_description: "Manage Spree Slider contents"
+    title: "Slides"
+    new_slide: "New Slide"
+    editing_slide: "Editing Slide"
+    back_to_slides: "Back to Slides"
+    placeholder_name: "Slider name"
+    placeholder_link_url: "Banner Link(URL)"
+    image_tip: "Image MAX size 1440x600"

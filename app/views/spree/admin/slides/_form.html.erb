@@ -15,13 +15,6 @@
     </div>
   </div>
 
-  <div class="col-md-12">
-    <%= f.field_container :product_id do %>
-      <%= label_tag :product_id, t(:product) %><br>
-      <%= hidden_field_tag 'slide[product_id]', f.object.product_id.to_s, class: "product_picker fullwidth" %>
-    <% end %>
-  </div>
-
   <div class="col-md-6">
     <%= f.field_container :name do %>
       <%= f.label :name, t(:name) %><br>
@@ -40,13 +33,6 @@
     <%= render 'spree/admin/slides/edit_slider_locations', f: f %>
   </div>
 
-  <div class="col-md-12">
-    <%= f.field_container :body do %>
-      <%= f.label :body, t(:body) %><br>
-      <%= f.text_area :body, {cols: 60, rows: 4, class: 'fullwidth form-control'} %>
-    <% end %>
-  </div>
-
   <div class="col-md-6">
     <%= f.field_container :image do %>
       <%= f.label :image, t(:image) %> <i>(<%= t('spree_slider.image_tip') %>)</i><br>
@@ -56,11 +42,12 @@
 
   <div class="col-md-6">
     <%= f.field_container :image do %>
-      <% if f.object.image? %>
+      <% if f.object.image.present? %>
         <p>
           <%= label_tag t(:preview) %>
           <br>
-          <%= image_tag f.object.image, class: 'img-responsive' %>
+          <%= image_tag main_app.url_for(f.object.image), class: 'img-responsive', width: '300px' %>
+
         </p>
       <% end %>
     <% end %>

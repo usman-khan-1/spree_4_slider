@@ -1,22 +1,10 @@
 <h1><%= t(:slide) %></h1>
 
 <table class="table">
-  <tr data-hook="product_id">
-    <th><%= t(:product) %></th>
-    <td>
-      <%= @slide.product.name unless @slide.product_id.blank? %>
-    </td>
-  </tr>
   <tr data-hook="name">
     <th><%= t(:name) %></th>
     <td>
       <%= @slide.name %>
-    </td>
-  </tr>
-  <tr data-hook="body">
-    <th><%= t(:body) %></th>
-    <td>
-      <%= @slide.body %>
     </td>
   </tr>
   <tr data-hook="link_url">
@@ -34,7 +22,7 @@
   <tr data-hook="image_file_name">
     <th><%= t(:image_file_name) %></th>
     <td>
-      <%= @slide.image_file_name %>
+      <%= image_tag main_app.url_for(@slide.image), style: 'width: 120px; height: auto;' %> 
     </td>
   </tr>
   <tr data-hook="position">

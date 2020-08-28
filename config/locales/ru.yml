@@ -17,16 +17,16 @@ ru:
       spree/slide: "Слайд"
 
   spree_slider:
-    config_name: "Слайды"
-    config_description: "Работа со слайдами"
-    title: "Слайды"
-    new_slide: "Новый Слайд"
-    editing_slide: "Редактирование Слайда"
-    back_to_slides: "Назад к Слайдам"
-    placeholder_name: "Оставьте пустым, чтобы использовать название выбранного продукта"
-    placeholder_link_url: "Оставьте пустым, чтобы использовать url продукта"
-    image_tip: "Изображение продукта"
-
+    config_name: "Spree Slider"
+    config_description: "Manage Spree Slider contents"
+    title: "Slides"
+    new_slide: "New Slide"
+    editing_slide: "Editing Slide"
+    back_to_slides: "Back to Slides"
+    placeholder_name: "Slider name"
+    placeholder_link_url: "Banner Link(URL)"
+    image_tip: "Image MAX size 1440x600"
+    
   spree_slider_locations:
     config_name: "Расположения Слайдов"
     config_description: "Работа с расположениями слайдов"

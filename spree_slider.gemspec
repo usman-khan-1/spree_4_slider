@@ -2,10 +2,10 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_slider'
-  s.version     = '3.3.1'
+  s.version     = '4'
   s.summary     = 'Spree Slider extension'
   s.description = 'Adds a slider to the homepage'
-  s.required_ruby_version = '>= 1.8.7'
+  s.required_ruby_version = '>= 2.3.0'
 
   s.author            = 'Usman Khan'
   s.email             = 'usmankhan1@msn.com'
