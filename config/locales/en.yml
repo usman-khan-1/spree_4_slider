@@ -26,7 +26,6 @@ en:
     placeholder_name: "Slider name"
     placeholder_link_url: "Banner Link(URL)"
     image_tip: "Image MAX size main banner(1440x600), for try on (540x350), deal_promotion (540x350)"
-    image_tip: "Image MAX size 1440x600"
 
   spree_slider_locations:
     config_name: "Spree Slider Locations"

@@ -44,5 +44,16 @@ Add a slider to the homepage of your Spree site, and manage the slideshow from w
 
 ### Using the slider
 
-Under Developmet 
+Under Developmet but you can do something liuke following while editing the home page 
+
+```ruby
+  <%Spree::Slide.published.location('homepage_banner').order(:position).limit(5).each_with_index do |slide, index|%>
+    <div class="carousel-item <%= "active" if index == 0 %>">
+      <%= link_to(
+        image_tag(main_app.url_for(slide.image), class: 'd-block lazyload w-100', alt: slide.name),
+        slide.link_url)
+      %>
+    </div>
+  <% end %>
+```
 

@@ -18,9 +18,7 @@
           <%= link_to image_tag(slide.slide_image.url, alt: slide.slide_name), url_for(slide.slide_link) %>
           <div class="carousel-caption">
             <h3><%= slide.slide_name %></h3>
-            <% unless slide.body.blank? %>
-              <p><%= slide.body %><p>
-            <% end %>
+
           </div>
         </div>
       <% end %>
